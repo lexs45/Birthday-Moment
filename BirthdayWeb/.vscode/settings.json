@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "workbench.colorTheme": "Dracula Soft",
+    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 12,
+    "files.autoSave": "afterDelay",
+    "livePreview.defaultPreviewPath": "/halamanBuy/halamanBuy.html"
+}

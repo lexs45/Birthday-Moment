@@ -1,0 +1,115 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Quicksand','Amaranth', cursive, Arial, sans-serif;
+}
+.container{
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+}
+
+.container > div{
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 20vh;
+    /* text-decoration: ; */
+}
+.one{
+    font-size: 4.5rem;
+}
+.two{
+    font-size:1.2rem;
+    font-weight: lighter;
+}
+
+
+.three{
+    font-size: 3rem;
+
+}
+
+
+/* four */
+.textbox{
+    border: 3px solid #aaa;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 1rem;
+    position: relative;
+    width: 600px;
+
+}
+
+.textbox__chat{
+    margin: 0;
+    text-align: justify;
+}
+.textbox__chat span{
+    visibility: hidden;
+}
+.fake__button{
+    background-color: rgb(21,161,237);
+    border-radius: 3px;
+    bottom: -50px;
+    color: #fff;
+    padding: .5rem 1rem;
+    position: absolute;
+    right: 5px;
+}
+
+/* Five */
+
+.five p{
+    font-size: 2rem;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.idea__3 strong{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 3px 5px;
+}
+
+.idea__5 {
+    font-size: 3rem;
+}
+
+.idea__5 span, .idea__6 span{
+    display: inline-block;
+}
+.idea__6 span{
+    font-size: 10rem;
+}
+
+.six{
+    position: relative;
+    top: 10vh;
+    z-index: 9999;
+}
+.profile{
+    border: solid 2px #aaa;
+    display: inline-block;
+    height: 350px;
+    width: 350px;
+}
+
+.wish__hbd{
+    font-weight: lighter;
+    font-size: 2rem;
+    margin: 10px 0 0;
+}
+
+.wish__text{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
